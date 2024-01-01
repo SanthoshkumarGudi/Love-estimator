@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function calculate(){
+            let x=document.getElementById("n1").value;
+            let y=document.getElementById("n2").value;
+            
+            let n=Math.random();
+            n=n*100;
+
+
+            n=Math.floor(n)+1;
+            if(n<50){
+               n= n+50;
+            }
+            else if(n<60){
+                n=n+20;
+            }
+            
+            alert(x+" loves"+ n+"% "+" "+ y);
+
+
+
+        }
+    </script>
+</head>
+<body>
+    <form action="" id="cal">
+    <label for="">enter your name:</label>
+    <input type="text" id="n1">
+    
+    <label for="">enter your soulmate name:</label>
+    <input type="text" id="n2">
+    <br>
+    <button onclick="calculate()" id="box">click me</button>
+    </form>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+#cal{
+    position: relative;
+    border: 300px;
+    color: rgb(4, 29, 29);
+    margin-top: 250px;
+    margin-bottom: 250px;
+    border-color: blueviolet;
+}
+
+#box{
+    box-shadow: inset;
+    margin: 180px;
+}
